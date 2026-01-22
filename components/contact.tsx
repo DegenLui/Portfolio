@@ -19,8 +19,8 @@ export function Contact() {
             Ready to Learn & Contribute
           </h2>
           <p className="text-center text-lg text-muted-foreground mb-12 max-w-3xl mx-auto">
-            I'm seeking entry-level opportunities where I can apply my hands-on prototyping skills while 
-            learning from experienced engineers. Whether it's hardware testing, prototype assembly, junior 
+            I&apos;m seeking entry-level opportunities where I can apply my hands-on prototyping skills while 
+            learning from experienced engineers. Whether it&apos;s hardware testing, prototype assembly, junior 
             embedded work, or field support—I bring persistence, documentation skills, and the ability to 
             debug and iterate quickly.
           </p>
@@ -35,7 +35,7 @@ export function Contact() {
           >
             <Card>
               <CardHeader>
-                <CardTitle>What I'm Looking For</CardTitle>
+                <CardTitle>What I&apos;m Looking For</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">

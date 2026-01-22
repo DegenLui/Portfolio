@@ -25,7 +25,7 @@ export function About() {
           className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground"
         >
           <p>
-            I'm a self-taught hardware and IoT builder learning embedded systems through hands-on prototyping. 
+            I&apos;m a self-taught hardware and IoT builder learning embedded systems through hands-on prototyping. 
             I design custom PCBs, build functional hardware, and test real-world monitoring concepts—teaching 
             myself electrical engineering principles as I go.
           </p>
@@ -45,8 +45,8 @@ export function About() {
           </p>
           
           <p>
-            Currently, I'm building <span className="text-primary font-semibold">AstraRMM</span>, an 
-            early-stage hardware monitoring platform for MSPs. I don't have a formal engineering degree—I 
+            Currently, I&apos;m building <span className="text-primary font-semibold">AstraRMM</span>, an 
+            early-stage hardware monitoring platform for MSPs. I don&apos;t have a formal engineering degree—I 
             have working prototypes, technical documentation, and the persistence to solve hard problems 
             through research and hands-on debugging.
           </p>
@@ -54,7 +54,7 @@ export function About() {
           <div className="mt-8 p-6 bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg border-l-4 border-primary">
             <p className="text-xl font-semibold text-foreground">
               What drives me: Proving I can build reliable hardware through practical results, not credentials. 
-              I'm ready to contribute to a team and learn from experienced engineers.
+              I&apos;m ready to contribute to a team and learn from experienced engineers.
             </p>
           </div>
         </motion.div>

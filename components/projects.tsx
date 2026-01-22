@@ -16,7 +16,7 @@ export function Projects() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-            What I've Built
+            What I&apos;ve Built
           </h2>
         </motion.div>
         
