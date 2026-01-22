@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     url: "https://luifigueroa.com",
     title: "Luis Figueroa | Hardware & IoT Engineer",
     description: "I design custom PCBs and build production-ready IoT devices. View my hardware projects and technical skills.",
+    images: [
+      {
+        url: "https://luifigueroa.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Luis Figueroa - Hardware & IoT Engineer",
+      },
+    ],
   },
 };
 

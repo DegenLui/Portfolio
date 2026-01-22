@@ -16,12 +16,13 @@ export function Contact() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">
-            Let's Work Together
+            Ready to Learn & Contribute
           </h2>
           <p className="text-center text-lg text-muted-foreground mb-12 max-w-3xl mx-auto">
-            I'm looking for opportunities where I can apply my hands-on hardware skills to real problems. 
-            Whether it's prototyping new devices, building IoT systems, or supporting hardware teams—I 
-            learn fast and deliver results.
+            I'm seeking entry-level opportunities where I can apply my hands-on prototyping skills while 
+            learning from experienced engineers. Whether it's hardware testing, prototype assembly, junior 
+            embedded work, or field support—I bring persistence, documentation skills, and the ability to 
+            debug and iterate quickly.
           </p>
         </motion.div>
         
@@ -39,11 +40,11 @@ export function Contact() {
               <CardContent>
                 <ul className="space-y-2">
                   {[
-                    "Hardware Technician roles",
-                    "IoT Technician positions",
-                    "Junior Embedded Engineer roles (skills-based)",
-                    "Prototyping and R&D positions",
-                    "Field or Lab Technician work",
+                    "Junior Hardware Technician / Test Technician",
+                    "IoT Prototyping / Lab Assistant roles",
+                    "Entry-Level Embedded / Firmware Support",
+                    "Hardware Assembly / Field Technician",
+                    "R&D Apprenticeships or Junior Engineering roles",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-muted-foreground">
                       <span className="text-primary mt-1">✓</span>
@@ -68,11 +69,11 @@ export function Contact() {
               <CardContent>
                 <ul className="space-y-2">
                   {[
-                    "Proven ability to design and build working hardware",
-                    "Strong troubleshooting and debugging skills",
-                    "Self-directed learning and rapid skill acquisition",
-                    "Real-world deployment experience",
-                    "Startup mindset: scrappy, resourceful, and focused on outcomes",
+                    "Hands-on prototyping experience and willingness to iterate until it works",
+                    "Strong troubleshooting mindset—comfortable debugging hardware and firmware",
+                    "Self-taught learner who researches, documents, and asks good questions",
+                    "Pilot testing and real-world validation experience (small scale)",
+                    "Reliable, detail-oriented, and eager to contribute to team projects",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-muted-foreground">
                       <span className="text-primary mt-1">✓</span>
@@ -98,18 +99,18 @@ export function Contact() {
             <CardContent>
               <div className="grid sm:grid-cols-2 gap-4 mb-6">
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:Luifig19@gmail.com"
                   className="flex items-center gap-3 p-4 rounded-lg border hover:bg-accent hover:text-accent-foreground transition-colors"
                 >
                   <Mail className="w-5 h-5" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-sm text-muted-foreground">your.email@example.com</p>
+                    <p className="text-sm text-muted-foreground">Luifig19@gmail.com</p>
                   </div>
                 </a>
                 
                 <a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="https://www.linkedin.com/in/luis-figueroa19"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 rounded-lg border hover:bg-accent hover:text-accent-foreground transition-colors"
@@ -117,12 +118,12 @@ export function Contact() {
                   <Linkedin className="w-5 h-5" />
                   <div>
                     <p className="font-semibold">LinkedIn</p>
-                    <p className="text-sm text-muted-foreground">Connect with me</p>
+                    <p className="text-sm text-muted-foreground">luis-figueroa19</p>
                   </div>
                 </a>
                 
                 <a
-                  href="https://github.com/yourprofile"
+                  href="https://github.com/LuiFig19"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 rounded-lg border hover:bg-accent hover:text-accent-foreground transition-colors"
@@ -130,7 +131,7 @@ export function Contact() {
                   <Github className="w-5 h-5" />
                   <div>
                     <p className="font-semibold">GitHub</p>
-                    <p className="text-sm text-muted-foreground">View my code</p>
+                    <p className="text-sm text-muted-foreground">LuiFig19</p>
                   </div>
                 </a>
                 
@@ -138,14 +139,14 @@ export function Contact() {
                   <MapPin className="w-5 h-5" />
                   <div>
                     <p className="font-semibold">Location</p>
-                    <p className="text-sm text-muted-foreground">Your Location / Remote</p>
+                    <p className="text-sm text-muted-foreground">Florida / Remote</p>
                   </div>
                 </div>
               </div>
               
               <div className="text-center">
                 <Button size="lg" asChild>
-                  <a href="mailto:your.email@example.com">Send Me an Email</a>
+                  <a href="mailto:Luifig19@gmail.com">Send Me an Email</a>
                 </Button>
               </div>
             </CardContent>
