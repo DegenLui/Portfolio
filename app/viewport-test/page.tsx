@@ -100,7 +100,7 @@ export default function ViewportTest() {
           <li>Select different viewport widths to see how the section responds</li>
           <li>Check for horizontal scrollbars (indicates overflow issues)</li>
           <li>Look for glow/gradient artifacts at larger widths (2K/4K)</li>
-          <li>Verify cards don't stretch too wide on ultra-wide displays</li>
+          <li>Verify cards don&apos;t stretch too wide on ultra-wide displays</li>
           <li>Ensure text is readable and spacing is consistent</li>
         </ul>
       </div>
