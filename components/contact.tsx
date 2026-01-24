@@ -2,13 +2,13 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, Linkedin, Github, MapPin } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin, Download } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="py-20 bg-muted/30 relative overflow-hidden">
+      <div className="container mx-auto px-4 max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -26,18 +26,19 @@ export function Contact() {
           </p>
         </motion.div>
         
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6 mb-12">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6 mb-12 md:items-stretch">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
+            className="flex"
           >
-            <Card>
+            <Card className="h-full w-full flex flex-col">
               <CardHeader>
                 <CardTitle>What I&apos;m Looking For</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-1">
                 <ul className="space-y-2">
                   {[
                     "Junior Hardware Technician / Test Technician",
@@ -61,12 +62,13 @@ export function Contact() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
+            className="flex"
           >
-            <Card>
+            <Card className="h-full w-full flex flex-col">
               <CardHeader>
                 <CardTitle>What I Bring</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-1">
                 <ul className="space-y-2">
                   {[
                     "Hands-on prototyping experience and willingness to iterate until it works",
@@ -144,9 +146,15 @@ export function Contact() {
                 </div>
               </div>
               
-              <div className="text-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button size="lg" asChild>
                   <a href="mailto:Luifig19@gmail.com">Send Me an Email</a>
+                </Button>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="/Luis_Figueroa_Resume.pdf" download="Luis_Figueroa_Hardware_IoT_Resume.pdf" className="flex items-center gap-2">
+                    <Download className="w-4 h-4" />
+                    Download Resume
+                  </a>
                 </Button>
               </div>
             </CardContent>

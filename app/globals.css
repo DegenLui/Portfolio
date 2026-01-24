@@ -61,3 +61,60 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Prevent gradient banding and artifacts */
+@layer utilities {
+  /* Ensure smooth gradients on all devices */
+  .gradient-smooth {
+    background-attachment: fixed;
+    will-change: transform;
+  }
+
+  /* Prevent overflow and maintain aspect ratios */
+  .contain-layout {
+    contain: layout style;
+  }
+
+  /* Hardware acceleration for smooth rendering */
+  .gpu-accelerate {
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+  }
+}
+
+/* Ensure all sections are properly constrained */
+section {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* Prevent horizontal scroll on any device */
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Ensure cards scale properly on large screens */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px !important;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    max-width: 1920px !important;
+  }
+}
+
+/* Fix gradient rendering on high-DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  [class*="bg-gradient"] {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}

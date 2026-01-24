@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 export function Projects() {
   return (
-    <section id="projects" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
+    <section id="projects" className="py-20 bg-muted/30 relative overflow-hidden">
+      <div className="container mx-auto px-4 max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -28,10 +28,11 @@ export function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
+              className="w-full"
             >
-              <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <Card className="overflow-hidden hover:shadow-lg transition-shadow w-full">
                 <div className="md:flex">
-                  <div className="md:w-1/3 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center p-8">
+                  <div className="md:w-1/3 relative bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center p-8 overflow-hidden">
                     <div className="w-full aspect-video bg-muted rounded-lg flex items-center justify-center">
                       <span className="text-muted-foreground text-sm">Project Image</span>
                     </div>

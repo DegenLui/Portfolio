@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 export function Experience() {
   return (
-    <section id="experience" className="py-20">
-      <div className="container mx-auto px-4">
+    <section id="experience" className="py-20 relative overflow-hidden">
+      <div className="container mx-auto px-4 max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -57,7 +57,7 @@ export function Experience() {
                     ))}
                   </ul>
                   
-                  <div className="mt-4 p-4 bg-primary/10 rounded-lg border-l-2 border-primary">
+                  <div className="mt-4 p-4 bg-primary/10 rounded-lg border-l-2 border-primary relative overflow-hidden">
                     <p className="text-sm font-semibold text-foreground">
                       <strong>Key Achievement:</strong> {exp.keyAchievement}
                     </p>

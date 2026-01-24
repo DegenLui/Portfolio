@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export function About() {
   return (
-    <section id="about" className="py-20">
-      <div className="container mx-auto px-4">
+    <section id="about" className="py-20 relative overflow-hidden">
+      <div className="container mx-auto px-4 max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -51,7 +51,7 @@ export function About() {
             through research and hands-on debugging.
           </p>
           
-          <div className="mt-8 p-6 bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg border-l-4 border-primary">
+          <div className="mt-8 p-6 bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg border-l-4 border-primary relative overflow-hidden">
             <p className="text-xl font-semibold text-foreground">
               What drives me: Proving I can build reliable hardware through practical results, not credentials. 
               I&apos;m ready to contribute to a team and learn from experienced engineers.

@@ -14,8 +14,8 @@ const iconMap: { [key: string]: any } = {
 
 export function Skills() {
   return (
-    <section id="skills" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
+    <section id="skills" className="py-20 bg-muted/30 relative overflow-hidden">
+      <div className="container mx-auto px-4 max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

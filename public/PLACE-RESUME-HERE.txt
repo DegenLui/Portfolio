@@ -1,0 +1,24 @@
+📄 RESUME FILE INSTRUCTIONS
+===========================
+
+Please place your resume PDF file here with the name:
+Luis_Figueroa_Resume.pdf
+
+The file should be placed directly in the public/ directory:
+C:\Users\luifi\Desktop\portfolio-nextjs\public\Luis_Figueroa_Resume.pdf
+
+Once you add the PDF file:
+1. Delete this PLACE-RESUME-HERE.txt file
+2. The download button will automatically work on the site
+3. The file will be accessible at: https://luifigueroa.com/Luis_Figueroa_Resume.pdf
+
+Current Setup:
+✅ Download button added to Contact section
+✅ Cards made uniform height
+✅ Resume link configured
+⏳ Waiting for PDF file to be placed here
+
+To add the file:
+- Copy your resume PDF to this folder
+- Rename it to: Luis_Figueroa_Resume.pdf
+- Refresh your browser (localhost:3000)
