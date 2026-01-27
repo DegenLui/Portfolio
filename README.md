@@ -62,10 +62,11 @@ Edit these files:
 ### Add Project Images
 
 Place images in `public/images/`:
-- `project-astrarmm.jpg`
-- `project-airquality.jpg`
-- `project-motion.jpg`
-- `project-network.jpg`
+- `project-astrarmm-1.png`
+- `project-airquality-1.png` through `project-airquality-5.png`
+- `project-motion-1.png` through `project-motion-3.png`
+- `project-network-1.png` through `project-network-3.png`
+- `project-taskchrono-placeholder.svg`
 
 Update image paths in `lib/data.ts`.
 

@@ -25,36 +25,30 @@ export function About() {
           className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground"
         >
           <p>
-            I&apos;m a self-taught hardware and IoT builder learning embedded systems through hands-on prototyping. 
-            I design custom PCBs, build functional hardware, and test real-world monitoring concepts—teaching 
-            myself electrical engineering principles as I go.
+            I&apos;m a hardware and IoT engineer focused on shipping production-ready devices. I design custom
+            PCBs, integrate sensors, and deliver reliable monitoring hardware for real-world deployments.
           </p>
           
           <p>
-            I work with ESP32 microcontrollers (S3, C6, P4), Ethernet controllers, PoE power concepts, 
-            and sensors including CO₂, temperature, humidity, and motion detection. My projects range 
-            from air quality monitor prototypes to mesh sensor network experiments—each one pushing my 
-            skills further and teaching me reliability, debugging, and system integration.
+            I work with ESP32 microcontrollers (S3, C3), Ethernet/PoE systems, and sensors including CO₂,
+            temperature/humidity, mmWave presence, and air quality. My projects span PoE air sensors, mesh
+            presence networks, and network monitoring appliances built for continuous operation.
           </p>
           
           <p>
-            I prototype enclosures using 3D printing, design PCBs in KiCad, and work through the full 
-            stack: schematics, power design, firmware debugging, and network protocols. I learn quickly, 
-            document my work, iterate on failures, and focus on building hardware that actually functions 
-            reliably on the bench and in pilot testing.
+            I prototype enclosures with 3D printing, design PCBs in KiCad, and own the full stack: schematics,
+            power design, firmware, and network integration. I prioritize reliability, test plans, and
+            maintainability so devices can be deployed and supported at scale.
           </p>
           
           <p>
-            Currently, I&apos;m building <span className="text-primary font-semibold">AstraRMM</span>, an 
-            early-stage hardware monitoring platform for MSPs. I don&apos;t have a formal engineering degree—I 
-            have working prototypes, technical documentation, and the persistence to solve hard problems 
-            through research and hands-on debugging.
+            Currently, I&apos;m building <span className="text-primary font-semibold">AstraRMM</span>, a hardware
+            monitoring platform for MSPs with production-ready devices and pilot deployments.
           </p>
           
           <div className="mt-8 p-6 bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg border-l-4 border-primary relative overflow-hidden">
             <p className="text-xl font-semibold text-foreground">
-              What drives me: Proving I can build reliable hardware through practical results, not credentials. 
-              I&apos;m ready to contribute to a team and learn from experienced engineers.
+              What drives me: Shipping reliable hardware that teams can deploy with confidence.
             </p>
           </div>
         </motion.div>

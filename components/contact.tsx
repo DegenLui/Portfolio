@@ -16,13 +16,12 @@ export function Contact() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">
-            Ready to Learn & Contribute
+            Ready to Contribute
           </h2>
           <p className="text-center text-lg text-muted-foreground mb-12 max-w-3xl mx-auto">
-            I&apos;m seeking entry-level opportunities where I can apply my hands-on prototyping skills while 
-            learning from experienced engineers. Whether it&apos;s hardware testing, prototype assembly, junior 
-            embedded work, or field support—I bring persistence, documentation skills, and the ability to 
-            debug and iterate quickly.
+            I&apos;m seeking hardware and IoT roles where I can deliver production-ready devices and support
+            deployments. Whether it&apos;s embedded development, hardware testing, or field support, I bring
+            structured documentation, reliability-focused build practices, and fast troubleshooting.
           </p>
         </motion.div>
         
@@ -41,11 +40,11 @@ export function Contact() {
               <CardContent className="flex-1">
                 <ul className="space-y-2">
                   {[
-                    "Junior Hardware Technician / Test Technician",
-                    "IoT Prototyping / Lab Assistant roles",
-                    "Entry-Level Embedded / Firmware Support",
-                    "Hardware Assembly / Field Technician",
-                    "R&D Apprenticeships or Junior Engineering roles",
+                    "Hardware Engineer / IoT Engineer roles",
+                    "Embedded Systems / Firmware Support",
+                    "Hardware Test & Validation",
+                    "Field Deployment & Support",
+                    "R&D and Prototyping",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-muted-foreground">
                       <span className="text-primary mt-1">✓</span>
@@ -71,11 +70,11 @@ export function Contact() {
               <CardContent className="flex-1">
                 <ul className="space-y-2">
                   {[
-                    "Hands-on prototyping experience and willingness to iterate until it works",
+                    "Hands-on hardware builds with production-focused iteration",
                     "Strong troubleshooting mindset—comfortable debugging hardware and firmware",
-                    "Self-taught learner who researches, documents, and asks good questions",
-                    "Pilot testing and real-world validation experience (small scale)",
-                    "Reliable, detail-oriented, and eager to contribute to team projects",
+                    "Documentation-driven development and clear handoffs",
+                    "Pilot testing and real-world validation experience",
+                    "Reliable, detail-oriented, and focused on outcomes",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-muted-foreground">
                       <span className="text-primary mt-1">✓</span>

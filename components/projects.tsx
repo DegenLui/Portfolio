@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { projects } from "@/lib/data";
 import { motion } from "framer-motion";
+import { ImageSlideshow } from "@/components/image-slideshow";
 
 export function Projects() {
   return (
@@ -33,9 +34,15 @@ export function Projects() {
               <Card className="overflow-hidden hover:shadow-lg transition-shadow w-full">
                 <div className="md:flex">
                   <div className="md:w-1/3 relative bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center p-8 overflow-hidden">
-                    <div className="w-full aspect-video bg-muted rounded-lg flex items-center justify-center">
-                      <span className="text-muted-foreground text-sm">Project Image</span>
-                    </div>
+                    {project.slides && project.slides.length > 0 ? (
+                      <ImageSlideshow slides={project.slides} />
+                    ) : (
+                      <img
+                        src={project.image}
+                        alt={`${project.title} project photo`}
+                        className="h-full w-full object-cover rounded-lg"
+                      />
+                    )}
                   </div>
                   
                   <div className="md:w-2/3">

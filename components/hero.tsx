@@ -26,15 +26,13 @@ export function Hero() {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Self-Taught Hardware Builder | IoT Prototyping | ESP32 Systems | Embedded Learning
+            Hardware & IoT Engineer | Custom PCBs | ESP32 Systems | Production-Ready Devices
           </p>
           
           <p className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
-            I design custom PCBs and build IoT hardware prototypes from scratch. Self-taught through hands-on 
-            projects, I create ESP32-based devices including air quality monitors, sensor networks, and monitoring 
-            hardware—learning embedded systems, power design, and firmware along the way. Currently building{" "}
-            <span className="text-primary font-semibold">AstraRMM</span>, an early-stage hardware monitoring 
-            platform for MSPs.
+            I design custom PCBs and build production-ready IoT hardware. From PoE devices to secure telemetry
+            and fleet management, I ship reliable systems for real-world deployment. Currently building{" "}
+            <span className="text-primary font-semibold">AstraRMM</span>, a hardware monitoring platform for MSPs.
           </p>
           
           <motion.div
