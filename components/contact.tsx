@@ -44,6 +44,8 @@ export function Contact() {
                     "Embedded Systems / Firmware Support",
                     "Hardware Test & Validation",
                     "Field Deployment & Support",
+                    "IT Infrastructure / Network Operations",
+                    "Systems / Network Technician",
                     "R&D and Prototyping",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-muted-foreground">

@@ -37,11 +37,13 @@ export function Projects() {
                     {project.slides && project.slides.length > 0 ? (
                       <ImageSlideshow slides={project.slides} />
                     ) : (
-                      <img
-                        src={project.image}
-                        alt={`${project.title} project photo`}
-                        className="h-full w-full object-cover rounded-lg"
-                      />
+                      <div className="w-full aspect-[4/3] rounded-lg bg-black/90 overflow-hidden">
+                        <img
+                          src={project.image}
+                          alt={`${project.title} project photo`}
+                          className="h-full w-full object-contain bg-black/90"
+                        />
+                      </div>
                     )}
                   </div>
                   

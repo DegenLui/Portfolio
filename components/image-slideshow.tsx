@@ -42,7 +42,7 @@ export function ImageSlideshow({ slides }: ImageSlideshowProps) {
   }, [totalSlides]);
 
   return (
-    <div className="w-full aspect-video rounded-lg bg-black/90 relative overflow-hidden">
+    <div className="w-full aspect-[4/3] rounded-lg bg-black/90 relative overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={`${slide.src}-${index}`}
@@ -51,7 +51,11 @@ export function ImageSlideshow({ slides }: ImageSlideshowProps) {
           }`}
           aria-hidden={index !== activeIndex}
         >
-          <img src={slide.src} alt={slide.alt} className="h-full w-full object-cover" />
+          <img
+            src={slide.src}
+            alt={slide.alt}
+            className="h-full w-full object-contain bg-black/90"
+          />
         </div>
       ))}
 
